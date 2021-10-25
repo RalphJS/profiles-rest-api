@@ -255,3 +255,18 @@ cython_debug/
 /.idea/profiles-rest-api.iml
 /.idea/inspectionProfiles/profiles_settings.xml
 /.idea/vcs.xml
+
+
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.logs
+
+### Vagrant Patch ###
+*.box
+
+# End of https://www.gitignore.io/api/python,vagrant
+eb-package.zip
+static/
